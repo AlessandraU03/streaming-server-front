@@ -23,7 +23,7 @@ export default function Register() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 relative overflow-hidden">
       {/* Fondo animado con peces (como Flow) */}
       <img
-        src="/fondo-flow.png"
+        src="/re.png"
         alt="Flow Background"
         className="absolute inset-0 w-full h-full object-cover opacity-30 z-0"
       />

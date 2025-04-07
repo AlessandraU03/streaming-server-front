@@ -12,7 +12,7 @@ export default function Login() {
     try {
       const res = await login({ email, password });
       localStorage.setItem("token", res.data.token);
-      navigate("/stream");
+      navigate("/selection");
     } catch (err) {
       alert("Error en el login");
     }
