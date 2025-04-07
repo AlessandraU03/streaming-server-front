@@ -13,7 +13,7 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route
-          path="/player"
+          path="/stream"
           element={
             <ProtectedRoute>
               <Player />

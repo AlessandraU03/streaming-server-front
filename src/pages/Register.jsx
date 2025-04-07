@@ -30,7 +30,7 @@ export default function Register() {
 
       <div className="z-10 bg-white bg-opacity-10 backdrop-blur-md p-10 rounded-3xl shadow-2xl w-full max-w-md border border-white border-opacity-20">
         <h2 className="text-3xl font-bold text-white text-center mb-6 font-[Comic_Sans_MS] tracking-wide">
-          Regístrate en LalandStream 🐠
+          Regístrate 🐠
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-6">

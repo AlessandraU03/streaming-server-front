@@ -12,7 +12,7 @@ export default function Login() {
     try {
       const res = await login({ email, password });
       localStorage.setItem("token", res.data.token);
-      navigate("/player");
+      navigate("/stream");
     } catch (err) {
       alert("Error en el login");
     }
@@ -20,7 +20,6 @@ export default function Login() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 relative overflow-hidden">
-      {/* Fondo de peces (estilo Flow) */}
       <img
         src="/fondo-flow.webp"
         alt="Flow Background"
@@ -30,7 +29,7 @@ export default function Login() {
       {/* Contenido */}
       <div className="z-10 bg-white bg-opacity-10 backdrop-blur-md p-10 rounded-3xl shadow-2xl w-full max-w-md border border-white border-opacity-20">
         <h2 className="text-3xl font-bold text-white text-center mb-6 font-[Comic_Sans_MS] tracking-wide">
-          Bienvenido a LalandStream 🌊
+          Bienvenido 🌊
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-6">
