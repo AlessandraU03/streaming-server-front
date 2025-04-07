@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8080", // Cámbialo por tu IP si es externo
+  baseURL: "http://34.234.124.53:8080", // Cámbialo por tu IP si es externo
 });
 
 export const register = (data) => API.post("/register", data);
